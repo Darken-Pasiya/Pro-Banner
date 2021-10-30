@@ -65,6 +65,7 @@ read -p $'\e[33mSelect Your Option Here :  \e[0m' opt
 #######################
 
 if [ $opt = 1 ]; then
+cd List
 bash Evil.sh
 
 ########################
@@ -72,6 +73,7 @@ bash Evil.sh
 ########################
 
 elif [ $opt = 2 ]; then
+cd List
 bash Dragon.sh
 
 ########################
@@ -79,6 +81,7 @@ bash Dragon.sh
 ########################
 
 elif [ $opt = 3 ]; then
+cd List
 bash Devil.sh
 
 ########################
@@ -86,6 +89,7 @@ bash Devil.sh
 ########################
 
 elif [ $opt = 4 ]; then
+cd List
 bash Skull.sh
 
 ########################
@@ -93,6 +97,7 @@ bash Skull.sh
 ########################
 
 elif [ $opt = 5 ]; then
+cd List
 bash Other.sh
 
 else
