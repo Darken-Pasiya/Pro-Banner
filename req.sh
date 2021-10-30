@@ -5,7 +5,7 @@ echo
 echo
 echo -e "\e[32m.........Requirments Procesing.........." | pv -qL 10
 sleep 2
-echo -e "\e[36m.........Requirments Installing........." | pv -ql 10
+echo -e "\e[36m.........Requirments Installing........." | pv -qL 10
 sleep 2
 pkg update && pkg upgrade
 pkg install bash
