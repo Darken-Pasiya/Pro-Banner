@@ -58,6 +58,6 @@ clear
 echo -e "\e[33mInstalling...\e[0m[\e[46m                  \e[0m]"
 sleep 2
 clear
-figlet -c -f Bloody Update
-figlet -c -f Complete
+figlet -c -f Bloody Update | lolcat
+figlet -c -f Avatar Complete lolcat
 sleep 1
