@@ -46,8 +46,8 @@ echo -e '
 
 echo ""
 echo ""
-echo -e $y "        .....Creatod By Darken Pasiya...."
-echo -e $y "         https://github.com/Darke-Pasiya"
+echo -e $g "            .....Creatod By Darken Pasiya...." | pv -qL 10
+echo -e $g "             https://github.com/Darke-Pasiya" | pv -qL 10
 echo 
 echo 
 echo 
