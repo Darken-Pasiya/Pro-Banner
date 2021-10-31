@@ -68,6 +68,8 @@ echo -e $g " [\e[31m4\e[32m]  \e[36mSkull Banner List"
 echo 
 echo -e $g " [\e[31m5\e[32m]  \e[36mOther Banner List"
 echo 
+echo -e $g " [\e[31m6\e[32m]  \e[36mUpdate Tool"
+echo 
 echo 
 echo 
 echo 
@@ -120,6 +122,17 @@ bash Skull.sh
 elif [ $opt = 5 ]; then
 cd List
 bash Other.sh
+
+########################
+# Update Tool
+########################
+
+elif [ $opt = 6 ]; then
+cd List
+bash update.sh
+clear
+cd -
+bash banner.sh
 
 else
 echo
