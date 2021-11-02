@@ -51,7 +51,7 @@ count
 clear
 echo
 echo -e "\e[\e[1;31;4;47m.............Update Start...........\e[0m" | pv -qL 10
-sleep1
+sleep 1
 echo
 pkg update && pkg upgrade
 cd
