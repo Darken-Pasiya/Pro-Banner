@@ -35,18 +35,6 @@ spin(){
   done
  }
 
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo -e "\e[32m[\e[31m#\e[32m]> \e[36mCreatod By Darken Pasiya  " | pv -qL 30
-echo -e "\e[32m[\e[31m#\e[32m]> \e[36mHave A Nice Day 😎  " | pv -qL 30
-xdg-open https://github.com/Darken-Pasiya
-sleep 1
-exit
-}
 
 count
 clear
