@@ -141,6 +141,7 @@ bash Other.sh
 ########################
 
 elif [ $opt = 6 ]; then
+cd -
 bash update.sh
 bash banner.sh
 
