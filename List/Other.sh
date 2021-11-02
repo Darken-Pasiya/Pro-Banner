@@ -37,7 +37,7 @@ echo
 echo
 echo
 echo
-read -p $'\e[33m Select Devil Art :  \e[0m' drag
+read -p $'\e[33m Select Art :  \e[0m' drag
 echo
 ######################
 #  Bat Art 01
